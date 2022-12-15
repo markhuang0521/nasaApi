@@ -1,6 +1,8 @@
 ## Overview/Setup
-this project is using the public nasa api https://api.nasa.gov/ as its data source.
-when downloading the repo, please ensure to java 11+ as the gradle jdk in order to build the app.
+this project is using the public nasa api https://api.nasa.gov/ as its data source. 
+
+when downloading the repo, please ensure to have java 11+ as the gradle jdk in order to build the app.
+
 I'm using android studio Dolphin as the IDE of choice.
 
 
@@ -10,6 +12,7 @@ the app is using  MVVM pattern with hilt,moshi, coroutines, retrofit, jetpack co
 
 ## Feature
 besides having the both the list screen and the detail screen I also implemented
+
 api call/data error handling, pull to refresh indicator, and the loading progress bar within the list screen for 
 more smooth user experience.
 
@@ -23,5 +26,4 @@ but due its be fairly new api there wasn't a lot of the existing answer availabl
 is centralize in one place. I decided to expose the navigation as a Lambda param.
 
 ## Summary
-Overall, I'm quite satisfied with this project as it follows all the Best Practices that I currently understand and am capable of regarding  
-Android Development. But as a developer who always wants to improve his craft any suggestion or feedback is Greatly Appreciated!
+Overall, I'm quite satisfied with this project as it follows all the Best Practices that I currently understand and am capable of regarding Android Development. But as a developer who always wants to improve his craft any suggestion or feedback is Greatly Appreciated!
