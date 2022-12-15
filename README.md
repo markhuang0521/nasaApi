@@ -26,4 +26,4 @@ but due its be fairly new api there wasn't a lot of the existing answer availabl
 is centralize in one place. I decided to expose the navigation as a Lambda param.
 
 ## Summary
-Overall, I'm quite satisfied with this project as it follows all the Best Practices that I currently understand and am capable of regarding Android Development. But as a developer who always wants to improve his craft any suggestion or feedback is Greatly Appreciated!
+Overall, I'm quite satisfied with this project as it follows all the Best Practices that I currently understand and am capable of regarding Android Development. But as a developer who always look out to improve his craft any suggestion or feedback is Greatly Appreciated!
