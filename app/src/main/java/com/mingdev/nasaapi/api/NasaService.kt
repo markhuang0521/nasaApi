@@ -10,10 +10,10 @@ interface NasaService {
     @GET("planetary/apod")
     suspend fun getRandomPlanets(
         @Query("api_key") apiKey: String = DEMO_KEY,
-        @Query("count") count: Int = 2, // default number to return
+        @Query("count") count: Int = 10, // default number to return
     ): Response< List<PlanetResponse>>
 }
 
-// since this is a public repo I will place the fake api key here to ensure api call will be successful
+// since this is a public repo I will place the api key here to ensure api call will be successful
 const val NASA_BASE_URL = "https://api.nasa.gov/"
 private const val DEMO_KEY = "6FNzdVEZXIxPFmFwLflk5q3CVD63IZTUiZsntW2O"
