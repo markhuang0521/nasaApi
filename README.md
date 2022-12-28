@@ -24,11 +24,25 @@ more smooth user experience.
 ## Testing
 I'm using Mockk and Truth libraries for testing my repository/useCase methods
 
+
 ## Limitation
 1. there's a slight issue with the PullRefreshIndicator() where it isn't showing when the ui becomes to error state
 but due its be fairly new api there wasn't a lot of the existing answer available online so would love know if there's better approach!
 2. normally any navigation event would be part of the viewModel actions, but given the new compose navigation the navController
 is centralize in one place. I decided to expose the navigation as a Lambda param.
+
+## Code Attribution
+BaseRepo/safeApiCall from geeksforgeeks
+
+Lce from Instacart
+
+NetworkResult from android/compose-samples/JetNews
+
+BlockingCircularProgressIndicator from stackOverflow
+
+PullRefreshIndicator from Google
+
+NasaNavHost from Google
 
 ## Summary
 Overall, I'm quite satisfied with this project as it follows all the Best Practices that I currently understand and am capable of regarding Android Development. But as a developer who always look out to improve his craft any suggestion or feedback is Greatly Appreciated!
