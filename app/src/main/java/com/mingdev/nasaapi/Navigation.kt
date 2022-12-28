@@ -13,7 +13,8 @@ import com.mingdev.nasaapi.NavRoute.PlantDetail
 import com.mingdev.nasaapi.ui.PlanetDetailScreen
 import com.mingdev.nasaapi.ui.PlanetListScreen
 
-
+// Navhost sample from Google
+//https://developer.android.com/jetpack/compose/navigation#nav-from-composable
 @Composable
 fun NasaNavHost(
     modifier: Modifier = Modifier,

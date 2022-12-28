@@ -5,7 +5,6 @@ import com.mingdev.nasaapi.planet.model.Planet
 import com.mingdev.nasaapi.util.Lce
 import javax.inject.Inject
 
-// addition
 class PlanetUseCase @Inject constructor(private val planetRepository: PlanetRepository) {
 
     suspend fun getRandomPlanets(): Lce<List<Planet>> = planetRepository.getRandomPlanets().map(

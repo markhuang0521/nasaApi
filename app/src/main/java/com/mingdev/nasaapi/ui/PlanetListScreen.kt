@@ -42,6 +42,8 @@ fun PlanetListScreen(
 
 }
 
+// PullRefreshIndicator() sample from Google
+//https://developer.android.com/reference/kotlin/androidx/compose/material/pullrefresh/package-summary#top-level-functions-summary
 @Composable
 @OptIn(ExperimentalMaterialApi::class)
 internal fun PlanetListSection(
@@ -49,9 +51,11 @@ internal fun PlanetListSection(
     pullRefreshState: PullRefreshState,
     navigateToDetail: (planetJson: String) -> Unit
 ) {
-    Box(modifier = Modifier
-        .pullRefresh(pullRefreshState)
-        .fillMaxSize()) {
+    Box(
+        modifier = Modifier
+            .pullRefresh(pullRefreshState)
+            .fillMaxSize()
+    ) {
 
         LceSection(state = state.planetList,
             loading = { BlockingCircularProgressIndicator(isShowing = true) },

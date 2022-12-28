@@ -8,7 +8,8 @@ import java.io.IOException
 
 
 /*
-all repo will extend from this class to use the safeApiCall functions to safely handle api responses.
+all repo will extend from this class to use the safeApiCall function to safely handle api responses from geeksforgeeks
+https://www.geeksforgeeks.org/how-to-handle-api-responses-success-error-in-android/
 */
 abstract class BaseRepo {
 

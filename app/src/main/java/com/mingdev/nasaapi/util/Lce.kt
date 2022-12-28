@@ -11,7 +11,7 @@ sealed class Lce<out T> {
     object Loading : Lce<Nothing>()
     data class Content<T>(val data: T) : Lce<T>()
     data class Error(val exception: Throwable) : Lce<Nothing>()
-    }
+}
 
 /**
  * Generic section that can use the [Lce] info. Will display the corresponding

@@ -11,8 +11,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 // CircularProgressIndicator that blocks user input while loading
+//https://stackoverflow.com/questions/69211853/how-to-disable-interaction-when-circularprogressindicator-is-active/69222822#69222822
 @Composable
- fun BlockingCircularProgressIndicator(
+fun BlockingCircularProgressIndicator(
     isShowing: Boolean,
     modifier: Modifier = Modifier
 ) {

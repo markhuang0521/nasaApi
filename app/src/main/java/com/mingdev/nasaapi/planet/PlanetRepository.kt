@@ -6,8 +6,9 @@ import com.mingdev.nasaapi.util.BaseRepo
 import com.mingdev.nasaapi.util.NetworkResult
 import javax.inject.Inject
 
-class PlanetRepository @Inject constructor(private val nasaService: NasaService) :BaseRepo() {
+class PlanetRepository @Inject constructor(private val nasaService: NasaService) : BaseRepo() {
 
-    suspend fun getRandomPlanets():NetworkResult<List<PlanetResponse>> = safeApiCall {nasaService.getRandomPlanets()  }
+    suspend fun getRandomPlanets(): NetworkResult<List<PlanetResponse>> =
+        safeApiCall { nasaService.getRandomPlanets() }
 
 }
