@@ -5,7 +5,7 @@ https://user-images.githubusercontent.com/40251654/208720895-86ea7b11-78ef-4310-
 
 ## Overview/Setup
 this project is using the public nasa api https://api.nasa.gov/ as its data source. 
-and it follows all the best practices that I know about Jetpack Compose and Android in general.
+and serves as my default template for any new android porjects as it follows all the best practices that I know about Jetpack Compose and Android.
 
 
 ## Architecture
